@@ -1,0 +1,138 @@
+
+body {
+    background-color:#BD97CB;
+    /* background-color:#5E376D; */
+
+    color: #2E3B51;
+}
+#header {
+    text-align: center;
+    /* border: 1px solid #2eb386; */
+    padding: 20px;
+    margin: 20px;
+    /* background-color: #F7E951;#EFF1DB */
+    background-color: #ECE3F0;
+
+}
+.frontImage {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #2eb386;
+    margin: 20px;
+    background-color: #ECE3F0;
+}
+.frontImage div img {
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    padding-left: 20px;
+    /* border: 1px solid yellow; */
+    background-color: #6d597a;
+}
+#para {
+    /* border: 2px solid skyblue; */
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+    font-size: large;
+    justify-content: center;
+    padding-top: 80px;
+}
+#formdiv{
+    /* border: 2px solid red; */
+    justify-content: center;
+    display: inline-block;
+    margin: 100px 300px;
+    padding: 200px;
+    background-color: #ECE3F0;
+
+
+}
+#formdiv form{
+    /* display: grid;
+    /* display: block; */
+    /* padding: 50px 100px;
+    border: 2px green;
+    margin: 20px; */ 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 15px;
+
+
+}
+#formdiv form input
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+#formdiv form button {
+    padding: 10px 20px;
+    border: none;
+    /* background-color: #6d597a; */
+    /* color: white; */
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    grid-column: span 2;
+    background-color: #BD97CB;
+    
+}
+#formdiv form button:hover{
+    background-color: #6d597a;
+    cursor: pointer;
+    color: whitesmoke;
+}
+#RegistrationList{
+    /* border: 10px solid  white; */
+    /* background: yellow */
+    /* display:  block; */
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    box-shadow: 0 0 80px #BD97CB;
+  /* border-radius: 80px; */
+  margin-top: 70px;
+  background-color: #ECE3F0;
+ 
+  /* border: 2px solid black; */
+
+}
+#RegistrationList h2{
+    padding-top: 50px;
+    padding-left: 40%;
+    /* display: block; */
+    /* display: flex; */
+
+}
+#RegistrationList table{
+    /* justify-content: space-evenly; */
+    /* border: 2px solid yellow; */
+    /* padding-left: 40%; */
+    padding-left: 300px;
+}
+#RegistrationList th{
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+    padding-left: 50px;
+    padding-right:50px ;
+
+}
+#RegistrationList tr{
+    /* padding: 40px; */
+    /* margin: 5px; */
+    padding-top: 30px;
+    display: flex;
+    font-size:large;
+    /* border: 2px solid red; */
+
+  /* justify-content: space-evenly; */
+/* border: 2px solid black; */
+margin: 5px;
+padding: 40px;
+
+}
